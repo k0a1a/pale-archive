@@ -1,4 +1,4 @@
-# pale-archive
+# The Pale Archive
 
 ## To install this experimental addon:
 
