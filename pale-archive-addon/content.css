@@ -1,0 +1,121 @@
+/* content.css — newsticker + draggable demo panel */
+
+/* ── Newsticker ────────────────────────────────────────────────────────────── */
+
+#__demo_ticker__ {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2147483646;
+  background: #000000;
+  color: #222222;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  height: 22px;
+  line-height: 22px;
+  pointer-events: none;
+}
+
+#__demo_ticker__.active {
+  display: block;
+}
+
+.__demo_ticker_track__ {
+  display: inline-block;
+  animation: __demo_ticker_scroll__ 40s linear infinite;
+}
+
+@keyframes __demo_ticker_scroll__ {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+#__demo_panel__ {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 2147483647;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #ffffff;
+  background: #1a1a1a;
+  border: 1px solid #333333;
+  border-radius: 6px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+  width: 160px;
+  overflow: hidden;
+  user-select: none;
+}
+
+#__demo_titlebar__ {
+  background: #111111;
+  color: #888888;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 7px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: move;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+#__demo_close_btn__ {
+  font-size: 14px;
+  line-height: 1;
+  color: #555555;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+#__demo_close_btn__:hover {
+  color: #ffffff;
+}
+
+#__demo_footer__ {
+  display: flex;
+  gap: 6px;
+  padding: 10px;
+}
+
+#__demo_run_btn__,
+#__demo_stop_btn__ {
+  flex: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  background: #2a2a2a;
+  border: 1px solid #3a3a3a;
+  border-radius: 4px;
+  color: #cccccc;
+  cursor: pointer;
+  padding: 6px 0;
+  transition: background 0.15s, color 0.15s;
+}
+
+#__demo_run_btn__:hover,
+#__demo_stop_btn__:hover {
+  background: #3a3a3a;
+  color: #ffffff;
+}
+
+#__demo_run_btn__:active,
+#__demo_stop_btn__:active {
+  background: #444444;
+}
+
+#__demo_run_btn__:disabled,
+#__demo_stop_btn__:disabled {
+  color: #444444;
+  border-color: #2a2a2a;
+  cursor: default;
+  background: #1a1a1a;
+}
