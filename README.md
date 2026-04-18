@@ -10,4 +10,4 @@ To install (Chrome/Chromium):
 ## To run the Archive
 
 To run (Chrome/Chromium):
- - Click Extensions icon in the toolbar (puzzle piece) → Pale Archive → Run
+ - Click Extensions icon in the toolbar (puzzle piece) → The Pale Archive → Run

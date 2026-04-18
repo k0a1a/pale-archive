@@ -16,7 +16,7 @@
     panel.style.display = "none";
     panel.innerHTML = `
       <div id="__demo_titlebar__">
-        <span>Pale Archive</span>
+        <span>The Pale Archive</span>
         <div id="__demo_close_btn__">&#x2715;</div>
       </div>
       <div id="__demo_footer__">
