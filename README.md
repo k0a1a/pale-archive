@@ -12,6 +12,8 @@ To install (Chrome/Chromium):
 To run (Chrome/Chromium):
  - Click Extensions icon in the toolbar (puzzle piece) → The Pale Archives → Run
 
+## About
+
 **The Pale Archives**  
 The web we navigate is not the web that exists. It is the web that dominated. These are pages that accumulated enough links, enough traffic, and enough institutional or commercial backing to survive the ranking systems that decide what is worth finding. Everything else recedes.
 
