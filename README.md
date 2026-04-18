@@ -27,7 +27,6 @@ The distribution of what was never seen reveals the web’s structural inequalit
 
 Surfacing these pages does not recover what was lost. Instead, it makes the condition of their loss visible. It asks who that condition continues to serve.
 
----
 
 **How it works**  
 The extension queries two public infrastructures directly. The first is Common Crawl, which maintains a multi-petabyte open repository of web crawl data. The second is the Wayback Machine API, which holds historical snapshots of pages across decades.
@@ -40,9 +39,6 @@ Each encounter is live. It is unmediated. It is different every time.
 
 The extension filters for signals that the infrastructure was never designed to amplify. These include low hit counts, absent backlinks, and expired or marginal domains. It brings these pages to the surface as something worth looking at.
 
----
 
 **A note on the current demo**  
-This version of The Pale Archives uses the Hotglue.me platform archive as its data source. Hotglue.me serves as a contained and conceptually fitting corpus for demonstration purposes.
-
-The live version will query Common Crawl and the Wayback Machine directly.
+This version of The Pale Archives uses the Hotglue.me platform archive as its data source. Hotglue.me serves as a contained and conceptually fitting corpus for demonstration purposes. The live version will query Common Crawl and the Wayback Machine directly.
