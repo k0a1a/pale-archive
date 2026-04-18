@@ -16,7 +16,7 @@
     panel.style.display = "none";
     panel.innerHTML = `
       <div id="__demo_titlebar__">
-        <span>The Pale Archive</span>
+        <span>The Pale Archives</span>
         <div id="__demo_close_btn__">&#x2715;</div>
       </div>
       <div id="__demo_footer__">
@@ -238,7 +238,7 @@
     const ticker = document.createElement("div");
     ticker.id = "__demo_ticker__";
     // Two identical halves — animating by -50% creates a seamless loop
-    const unit = Array(20).fill("This is the Pale Archive").join("\u00a0\u00a0\u00a0\u00a0\u25c6\u00a0\u00a0\u00a0\u00a0");
+    const unit = Array(20).fill("This is The Pale Archives").join("\u00a0\u00a0\u00a0\u00a0\u25c6\u00a0\u00a0\u00a0\u00a0");
     ticker.innerHTML = `<span class="__demo_ticker_track__">${unit}&nbsp;&nbsp;&nbsp;&nbsp;${unit}&nbsp;&nbsp;&nbsp;&nbsp;</span>`;
     document.documentElement.appendChild(ticker);
   }
